@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
         }
-        if (isGrounded)
+        if (isGrounded == false) 
         {
             animator.SetBool("jump", true);
         }
