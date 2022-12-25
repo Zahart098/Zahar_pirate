@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Heath : MonoBehaviour
 {
     [SerializeField] private float startingHeath;
-    public float currentHeath { get; private set; }
+     public float currentHeath { get; private set; }
 
     private void Awake()
     {
