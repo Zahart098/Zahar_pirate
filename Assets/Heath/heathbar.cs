@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class heathbar : MonoBehaviour
 {
-    [SerializeField] private float playerHeath;
+    [SerializeField] private Heath playerHeath;
     [SerializeField] private Image totalheath;
     [SerializeField] private Image currentheathbar;
     private void Start()
